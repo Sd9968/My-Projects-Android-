@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="168dp"
+        android:layout_height="93dp"
+        android:layout_gravity="center"
+        app:srcCompat="@mipmap/srm"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/LoginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:hint="Enter mail id"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <EditText
+        android:id="@+id/LoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="425dp"
+        android:layout_height="209dp"
+        android:text="Login In"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="519dp"
+        tools:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/signupedit"
+        android:layout_width="406dp"
+        android:layout_height="177dp"
+        android:layout_gravity="center"
+        android:text="Sign up Here"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="650dp" />
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:orientation="vertical"
+    tools:context=".sign_up">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="191dp"
+        android:layout_height="119dp"
+        app:srcCompat="@mipmap/register"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="89dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/signupemail"
+        android:layout_width="400dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Enter email id"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="324dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/signuppassword"
+        android:layout_width="400dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="436dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="313dp"
+        android:layout_height="165dp"
+        android:layout_gravity="center"
+        android:text="sign up"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <Button
+        android:id="@+id/loginedit"
+        android:layout_width="308dp"
+        android:layout_height="263dp"
+        android:layout_gravity="center"
+        android:text="@string/login_here"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="657dp" />
+</LinearLayout>

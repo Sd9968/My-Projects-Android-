@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "199162847898",
+    "firebase_url": "https://bookit-abf43-default-rtdb.firebaseio.com",
+    "project_id": "bookit-abf43",
+    "storage_bucket": "bookit-abf43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199162847898:android:0447a92d55038fb3a2b523",
+        "android_client_info": {
+          "package_name": "com.example.bookit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199162847898-glht82obp6ib9iogl5e0a9lfisfs62jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtLk1NZ51A31u551mwKB_p09Beh74zPOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199162847898-glht82obp6ib9iogl5e0a9lfisfs62jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3122FF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Outpass Form"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/browser_actions_bg_grey"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/browser_actions_bg_grey"
+        android:hint="enter_your_name"
+        android:textSize="20sp"
+        android:id="@+id/one"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/browser_actions_bg_grey"
+        android:hint="enter_admission_number"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:id="@+id/two"
+        android:inputType="text" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/browser_actions_bg_grey"
+        android:hint="enter_your_phone_number"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:id="@+id/three"
+        android:textSize="20sp"
+        android:importantForAutofill="no" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/browser_actions_bg_grey"
+        android:hint="/enter_your_guardian_name"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/four"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/browser_actions_bg_grey"
+        android:hint="enter_your_guardian_phone_number"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:id="@+id/five"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/six"
+        android:layout_height="150dp"
+        android:background="@color/browser_actions_bg_grey"
+        android:hint="enter_reason_for_outpass"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="submit" />
+
+</LinearLayout>
